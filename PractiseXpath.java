@@ -9,8 +9,6 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class PractiseXpath {
 	/*
-	**No need to write Selenium script - Just find these elements in the DOM using only XPaths	
-	Try all the xpaths that you've learnt (basic, text-based, axes..)
 	1. Launch the URL	
 	2. Enter the username based on its label	
 	3. Enter the password based on its label	
