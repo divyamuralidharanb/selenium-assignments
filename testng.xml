@@ -7,11 +7,16 @@
 <parameter name = "password" value = "crmsfa"/>
 
   <test thread-count="5" name="Mixed" verbose="5">
-  	<packages>
+  	<!-- <packages>
       <package name="testcase"/>
-    </packages>
-    <!-- <classes>
+    </packages> -->
+    <classes>
       <class name="testcase.CreateLead"/>
-    </classes> -->
+      <class name="testcase.EditLead"/>
+      <class name="testcase.DeleteLead"/>
+      <class name="testcase.DuplicateLead"/>
+      <class name="testcase.MergeLead"/>
+    </classes> 
   </test> <!-- Test -->
 </suite> <!-- Suite -->
+
