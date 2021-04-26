@@ -6,17 +6,21 @@
 <parameter name = "username" value = "DemoSalesManager"/>
 <parameter name = "password" value = "crmsfa"/>
 
+<listeners>
+	<listener class-name="testcase.RetryListener"></listener>
+</listeners>
+
   <test thread-count="5" name="Mixed" verbose="5">
   	<!-- <packages>
       <package name="testcase"/>
     </packages> -->
     <classes>
+      <!-- <class name="testcase.DeleteLead"/> -->
       <class name="testcase.CreateLead"/>
-      <class name="testcase.EditLead"/>
+      <class name="testcase.EditLead"/> 
       <class name="testcase.DeleteLead"/>
-      <class name="testcase.DuplicateLead"/>
+      <class name="testcase.DuplicateLead"/> 
       <class name="testcase.MergeLead"/>
     </classes> 
   </test> <!-- Test -->
 </suite> <!-- Suite -->
-
